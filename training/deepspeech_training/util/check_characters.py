@@ -19,7 +19,7 @@ import csv
 import os
 import sys
 import unicodedata
-from .io import open_remote
+from .util .io import open_remote
 
 def main():
     parser = argparse.ArgumentParser()
